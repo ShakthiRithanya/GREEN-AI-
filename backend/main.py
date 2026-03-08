@@ -28,3 +28,4 @@ def health_check():
 app.include_router(upload.router)
 app.include_router(analyze.router)
 app.include_router(compress.router)
+
