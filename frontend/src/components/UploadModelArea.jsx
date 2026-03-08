@@ -172,3 +172,4 @@ const UploadModelArea = ({ onAnalyze }) => {
 };
 
 export default UploadModelArea;
+
