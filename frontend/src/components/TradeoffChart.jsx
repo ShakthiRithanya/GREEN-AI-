@@ -55,3 +55,4 @@ const TradeoffChart = ({ baselineMetrics, compressedMetrics }) => {
 };
 
 export default TradeoffChart;
+
