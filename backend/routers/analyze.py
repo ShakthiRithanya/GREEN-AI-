@@ -61,3 +61,4 @@ async def analyze_model(model_id: str, db: Session = Depends(get_db)):
         "run_id": new_run.id,
         "baseline_metrics": metrics_data
     }
+
