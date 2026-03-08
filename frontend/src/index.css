@@ -1,0 +1,33 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply bg-beige-light text-dark font-sans antialiased selection:bg-primary/20;
+  }
+}
+
+@layer components {
+  .glass-panel {
+    @apply bg-white/40 backdrop-blur-xl border border-dark/10 shadow-sm transition-all duration-300;
+  }
+
+  .glass-panel-hover {
+    @apply hover:bg-white/60 hover:border-dark/20 hover:shadow-md;
+  }
+
+  .text-glow {
+    text-shadow: 0 0 20px rgba(11, 32, 26, 0.2);
+  }
+}
+
+@layer utilities {
+  .animation-delay-2000 {
+    animation-delay: 2s;
+  }
+
+  .animation-delay-4000 {
+    animation-delay: 4s;
+  }
+}
