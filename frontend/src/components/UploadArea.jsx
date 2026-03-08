@@ -132,3 +132,4 @@ const UploadArea = ({ onAnalyze }) => {
 };
 
 export default UploadArea;
+
