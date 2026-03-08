@@ -30,3 +30,4 @@ const FromDataPage = () => {
 };
 
 export default FromDataPage;
+
