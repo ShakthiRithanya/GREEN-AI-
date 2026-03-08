@@ -73,3 +73,4 @@ def compress_and_evaluate(model_id: str, target_size_ratio: float, data_path: st
         "model_size_mb": model_size_mb,
         "fairness_score": fairness_score
     }
+
