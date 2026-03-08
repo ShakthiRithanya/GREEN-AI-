@@ -61,3 +61,4 @@ export default function CO2Scene({ carCount = 1, carColor = "#ef4444" }) {
         </>
     );
 }
+
