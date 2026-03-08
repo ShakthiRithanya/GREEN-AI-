@@ -120,3 +120,4 @@ def evaluate_existing_model(data_path: str, target_column: str, sensitive_featur
         "model_size_mb": model_size_mb,
         "fairness_score": fairness_score
     }
+
