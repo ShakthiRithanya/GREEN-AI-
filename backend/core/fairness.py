@@ -33,3 +33,4 @@ def calculate_disparate_impact(y_pred, sens_test, y_test):
         return 1.0 if rate_A == 0 else 2.0
         
     return float(min(rate_A / rate_B, 2.0))
+
