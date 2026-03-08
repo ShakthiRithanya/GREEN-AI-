@@ -43,3 +43,4 @@ class Metric(Base):
     model_size_mb = Column(Float)
 
     run = relationship("Run", back_populates="metrics")
+
