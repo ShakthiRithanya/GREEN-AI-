@@ -14,3 +14,4 @@ class TrackerWrapper:
         if emissions is None:
             emissions = 0.0
         return float(emissions), float(energy)
+
