@@ -101,3 +101,4 @@ async def export_model(model_id: str):
         filename=f"{model_id}_compressed.pkl",
         media_type="application/octet-stream"
     )
+
