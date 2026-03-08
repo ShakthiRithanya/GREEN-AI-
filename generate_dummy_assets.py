@@ -112,3 +112,4 @@ if __name__ == "__main__":
     generate_loan_approval()
     generate_fraud_detection()
     generate_clinic_model()
+
